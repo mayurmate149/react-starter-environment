@@ -1,0 +1,19 @@
+{
+  "name": "react-starter-environment",
+  "version": "1.0.0",
+  "description": "React starter and environment project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayurmate149/react-starter-environment.git"
+  },
+  "author": "Mayur Mate",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayurmate149/react-starter-environment/issues"
+  },
+  "homepage": "https://github.com/mayurmate149/react-starter-environment#readme"
+}
