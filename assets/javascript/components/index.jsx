@@ -8,8 +8,8 @@ class App extends React.Component {
     render () {
         return (
             <div>
-            <p> Hello React!</p>
-        <SimpleComponent />
+            <h2>Hello, Mayur Mate !</h2>
+            <SimpleComponent />
         </div>
     );
     }

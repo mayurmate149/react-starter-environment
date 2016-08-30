@@ -4,17 +4,17 @@ class SimpleComponent extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = {likesCount : 0};
+        this.state = {likesCount: 0};
         this.onLike = this.onLike.bind(this);
         this.onUnLike = this.onUnLike.bind(this);
     }
 
-    onLike () {
+    onLike() {
         let newLikesCount = this.state.likesCount + 1;
         this.setState({likesCount: newLikesCount});
     }
 
-    onUnLike () {
+    onUnLike() {
         let newLikesCount = this.state.likesCount - 1;
         this.setState({likesCount: newLikesCount});
     }
@@ -22,9 +22,14 @@ class SimpleComponent extends React.Component {
     render() {
         return (
             <div>
-                Number of Likes : <span>{this.state.likesCount}</span>
-                <div><button onClick={this.onLike}>Like</button></div>
-                <div><button onClick={this.onUnLike}>Unlike</button></div>
+                <h4> Number of Likes to this project </h4>
+                <h4 className="margin-top-10"> Like : <span className="red">{this.state.likesCount}</span></h4>
+
+                <div className="margin-top-10">
+                    <button className="btn pull-left" onClick={this.onLike}>Like</button>
+                    <button className="btn pull-left" onClick={this.onUnLike}>Unlike</button>
+                </div>
+
             </div>
         );
     }
