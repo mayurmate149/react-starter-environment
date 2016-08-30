@@ -17,3 +17,25 @@ button {
     border: 0;
     margin: 20px auto;
 }
+
+.clear {
+    clear: both;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.pull-left {
+    float: left;
+}
+
+.btn {
+    padding: 10px 10px;
+    margin: 10px 1px;
+    text-align: center;
+}
+
+.red {
+    color: red;
+}
